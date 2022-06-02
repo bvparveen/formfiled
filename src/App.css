@@ -1,0 +1,15 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.app
+{
+  background-image: url("./Assests/gm.jpg");
+  background-size: 300px 350px, cover;
+  background-repeat: no-repeat;
+
+
+  /* transition: 0.4 ease-out; */
+}
+ 
