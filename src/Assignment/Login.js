@@ -15,7 +15,8 @@ const Login = () => {
     setValues({ ...values, password: e.target.value })
   }
   const OnSubmit = () => {
-    if ((values.usname.length > 0 && values.password.length > 0) && (values.usname == "test" && values.password == "123123")) {
+    if ((values.usname.length > 0 && values.password.length > 0)
+        && (values.usname == "test" && values.password == "123123")) {
       console.log("login");
       setValid(true)
 
